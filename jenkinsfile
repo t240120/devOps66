@@ -6,13 +6,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
-     stages {
         stage('Good_Morning') {
             steps {
                 echo 'Good Morning'
             }
         }
-        stages {
         stage('Text') {
             steps {
                 echo 'Nature Is So Beautiful'
